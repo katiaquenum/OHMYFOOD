@@ -8,28 +8,36 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    transform: scale(0.5);
+    padding: 40px;
 }
+
 .location{
+    margin: auto;
+    width: 30%;
     display: flex;
     font-weight: bold;
     color: black;
-    justify-content: space-around;
-    background-color:#EAEAEA;
-    padding: 15px 30%; 
+    justify-content: center;
+    background-color:#99E2D0;
+    padding: 15px 0px; 
     box-shadow: inset 0px 2px 5px rgba(206, 206, 206, 1);
-          
+    border-radius: 30px;
 }
+
+.location p {
+    margin-left: 15px;
+}
+
 .reservation{
     background-color:#F7F7F7; 
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    margin: 30px 0px;
+    padding: 30px 0px;
     
 }
 
 .reservation h1{
-    margin: 0% 15% 5%;
+    margin: 10px;
     font-size: x-large;
 }
 .reservation h2{
@@ -45,7 +53,7 @@
     margin: auto;
     margin-top: 25px;
     display: flex;
-    width: 60%;
+    width: 17%;
     height: 40px;
     background: linear-gradient(173deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     align-items: center;
@@ -56,6 +64,7 @@
 
    .fonctionnement{
     margin: 40px 0px 25px 30px;
+    color: white;
    }
 
    .fonctionnement a {
@@ -67,6 +76,7 @@
     display: flex;
     align-items: center;
     margin: 0px 0px 25px 30px;
+    width: 40%
 }
 
 .menu i:active{
@@ -85,11 +95,16 @@
     margin-right: -15px;
     z-index: 1;
 }
+
+.desktop_menu{
+    display: flex;
+    
+}
 .menu_container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 65%;
     height: 60px;
     background-color:#F7F7F7; 
     border-radius: 10px;
@@ -98,7 +113,7 @@
 }
 .menu_item{
     
-    width: 65%;
+    /* width: 65%; */
     
 }
 
@@ -116,8 +131,8 @@
     }
 
 .Restaurants h2 {
-    margin: 40px 0px 25px 20px;
-    padding-top: 15%;
+    margin:20px;
+    padding-top: 20px;
    }  
 
 .Restaurants_item{
@@ -174,4 +189,8 @@ footer a {
 }
 footer i {
    margin-right: 10px;
+}
+.desktop_footer-content{
+    
+    margin: auto;
 }
