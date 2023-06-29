@@ -168,29 +168,16 @@ font-size: x-large;
 footer {
     background-color: #353535;
     padding: 20px 10px 20px 20px;
-    ;
+    
 }
 
 footer h2 {
     font-family:Shrikhand;
-   color: white;
-   font-weight: 100;
+    font-weight: 100;
    margin-bottom: 10px;
        
 }
-.footer_item{
-display: flex;
-align-items: center;
-color: white;
-margin-bottom: 5px;
-}
 footer a {
     text-decoration: none;
-}
-footer i {
-   margin-right: 10px;
-}
-.desktop_footer-content{
-    
-    margin: auto;
+    color: white;
 }
