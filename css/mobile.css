@@ -11,6 +11,30 @@
     transform: scale(0.5);
 }
 
+form {
+    display: flex;
+    
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 16px 30%;
+    box-shadow: inset 0px 2px 5px rgba(206, 206, 206, 1);
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="search"] {
+    border: none;
+    
+    font-weight: bold;
+    /* color: black; */
+    justify-content: center;
+    background-color: #EAEAEA;
+    /* padding: 16px 30%; */
+    
+
+} 
 .location {
     display: flex;
     font-weight: bold;
