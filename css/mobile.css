@@ -114,7 +114,7 @@
     border-radius: 20px;
     box-shadow: 0px 10px 10px #E9E9E9;
     font-weight: bold;
-   
+
 }
 
 
@@ -129,38 +129,51 @@
     color: grey;
 }
 
-.menu_container:active{
+.menu_container:active {
     background-color: #F5EDFF;
-    
+
 }
 
 .menu_icone:active {
-    
+
     color: #9356DC;
 }
 
-.Restaurants {
+.Restaurants_background {
     background-color: #F7F7F7;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .restaurants i:active {
     color: #9356DC;
 }
 
-.Restaurants h2 {
-    margin: 40px 0px 25px 20px;
-    padding-top: 15%;
+.Restaurants_block {
+    width: 90%;
+    margin: auto;
+
+}
+
+.vignette {
+    position: absolute;
+    right: 7%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #99E2D0;
+    color: #008766;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .Restaurants_item {
-    margin: 0px 15px 20px 15px;
+    margin-top: 25px;
     box-shadow: 0px 2px 5px gray;
     background-color: white;
     border-radius: 20px;
 }
 
-.Restaurants_item a {
+.Restaurants_block a {
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -168,7 +181,7 @@
 
 .restaurant_image {
     /* display: flex; */
-    height: 150px;
+    height: 210px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -178,13 +191,22 @@
 
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    padding-bottom: 10px;
+    margin: 15px 20px 0px 15px;
+    padding-bottom: 15px;
+
 }
 
 .restaurant_heart {
     font-size: x-large;
 }
+
+.restaurant_nom {
+    margin-bottom: 5px;
+}
+
+/* .restaurant_lieu{
+    margin-bottom:5px ;
+} */
 
 footer {
     background-color: #353535;
@@ -204,6 +226,16 @@ footer a {
     color: white;
 }
 
+footer ul {
+    list-style: none;
+    padding: 0%;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
 footer i {
     margin-right: 10px;
+    font-size: small;
 }
