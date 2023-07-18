@@ -1,0 +1,150 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+}
+
+/* ------------------------------HEADER--------------------------------- */
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+
+    transform: scale(0.5);
+}
+
+.logo i {
+
+    font-size: x-large;
+}
+
+.header_image img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-------------------------- MAIN------------------------- */
+
+.restaurant {
+    background-color: #F7F7F7;
+    position: sticky;
+    margin-top: -55px;
+    border-radius: 45px 45px 0px 0px;
+    padding-bottom: 15px;
+
+}
+
+.restaurant_carte {
+    width: 90%;
+    margin: auto;
+}
+
+.restaurant_nom {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.restaurant_nom h1 {
+    font-family: Shrikhand;
+}
+
+.restaurant_nom i {
+    font-size: x-large;
+    margin: 0px 20px 0px 50px;
+}
+
+.restaurant h2{
+    font-weight: 300;
+    font-size: medium;
+    border-bottom: 3px #99E2D0 solid;
+    padding-bottom: 5px;
+    width: 40px;
+    margin-top: 30px;
+    
+}
+
+.plat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 70px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.plat_ID{
+    margin-left: 10px;
+}
+
+.plat_tarif{
+    margin-top: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.plat_nom{
+    margin-bottom: 5px;
+}
+
+.commander_button {
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 160px;
+    height: 45px;
+    background: linear-gradient(173deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px gray;
+    color: white;
+    text-decoration: none;
+}
+
+.restaurant a {
+        text-decoration: none;
+}
+
+
+/* ----------------------FOOTER------------------------------- */
+
+footer {
+    background-color: #353535;
+    padding: 20px 10px 20px 20px;
+    color: white;
+}
+
+footer h2 {
+    font-family: Shrikhand;
+    font-weight: 100;
+    margin-bottom: 30px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0%;
+}
+
+footer i {
+    margin-right: 10px;
+    font-size: small;
+}

@@ -23,15 +23,22 @@ form {
 
 input[type="search"] {
     border: none;
-    font-weight: bold;
     background-color: #EAEAEA;
     font-size: large;
     width: 160px;
     margin-left: 10px;
+    
+}
+
+input::placeholder{
+    color: black;
+    font-weight: bold;
+    opacity: 1;
 }
 
 input:focus {
     outline: none;
+  
 }
 
 /*-------------------------- MAIN------------------------- */
